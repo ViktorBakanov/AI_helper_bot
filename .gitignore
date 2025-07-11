@@ -11,3 +11,4 @@ venv/
 .cache/
 __pypackages__/
 models/
+.DS_Store

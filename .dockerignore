@@ -23,6 +23,10 @@ pip-wheel-metadata/
 tests/
 *.test.py
 
+# Модели для light weight
+.models/
+*.gguf
+
 # 🗂 OS-файлы
 Thumbs.db
 ehthumbs.db
