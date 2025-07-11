@@ -1,0 +1,29 @@
+# 🐍 Исключаем виртуальное окружение
+venv/
+.venv/
+
+# 🔧 Исключаем системные файлы и IDE
+__pycache__/
+*.py[cod]
+*.so
+*.log
+*.DS_Store
+*.egg-info/
+
+# 🐙 Git
+.git/
+.gitignore
+
+# 📦 Кеши pip и др.
+*.cache/
+.cache/
+pip-wheel-metadata/
+
+# 🧪 Тесты (если не нужны в образе)
+tests/
+*.test.py
+
+# 🗂 OS-файлы
+Thumbs.db
+ehthumbs.db
+Desktop.ini
