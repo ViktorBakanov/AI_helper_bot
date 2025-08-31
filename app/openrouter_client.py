@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
 BASE_URL = os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
 MODEL_ID = os.getenv("MODEL_ID", "meta-llama/llama-3.3-70b-instruct")
 
